@@ -1,0 +1,8 @@
+<div>
+  <%= @status.title %>
+  <%= @status.content %>
+</div>
+
+<%= link_to "delete", @status, method: :delete,
+                                data: {confirm: "You sure?"} %>
+
